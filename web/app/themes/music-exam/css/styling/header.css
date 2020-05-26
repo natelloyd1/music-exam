@@ -46,7 +46,8 @@ header .container {
 
 .site-logo {
     max-width: 100px;
-    margin-right: 8rem;
+    margin-right: 12rem;
+    margin-top: 3rem; 
 }
 
 .menu-image {
@@ -79,7 +80,8 @@ a.get-started {
 }
 
 a.get-started:hover {
-    color: white; 
+    color: black; 
+    background-color: white;
 }
 
 .facebook-icon {
@@ -88,8 +90,16 @@ a.get-started:hover {
     margin: 1rem;
 }
 
+.facebook-icon:hover {
+    filter: invert(20%);
+}
+
 .insta-icon {
     padding-top: 40px;
     max-width: 38px;
     margin: 1rem;
+}
+
+.insta-icon:hover {
+    filter: invert(20%);
 }

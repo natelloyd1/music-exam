@@ -20,10 +20,11 @@
 
         $site_logo = get_field('site_logo');
         if( !empty( $site_logo ) ): ?>
-        <img class="site-logo" src="<?php echo esc_url($site_logo['url']); ?>" alt="<?php echo esc_attr($site_logo['alt']); ?>" />
+        <a href="http://www.sage-exam.test:8888">
+            <img class="site-logo" src="<?php echo esc_url($site_logo['url']); ?>" alt="<?php echo esc_attr($site_logo['alt']); ?>" />
+        </a>
         <?php endif; ?>
-
-
+        
         <?php 
 
         wp_nav_menu(
@@ -45,8 +46,6 @@
 
             $insta_link = get_field('instagram_link'); 
 
-
-
         ?>
 
     <a href="<?php echo $header_link['url']?>" class="get-started">
@@ -54,12 +53,16 @@
 
     <?php
     if( !empty( $facebook_link ) ): ?>
-    <img class="facebook-icon" src="<?php echo esc_url($facebook_link['url']); ?>" alt="<?php echo esc_attr($facebook_link['alt']); ?>" />
+    <a href="http://www.sage-exam.test:8888">
+        <img class="facebook-icon" src="<?php echo esc_url($facebook_link['url']); ?>" alt="<?php echo esc_attr($facebook_link['alt']); ?>" />
+    </a>
     <?php endif; ?>
 
     <?php
     if( !empty( $insta_link ) ): ?>
-    <img class="insta-icon" src="<?php echo esc_url($insta_link['url']); ?>" alt="<?php echo esc_attr($insta_link['alt']); ?>" />
+    <a href="http://www.sage-exam.test:8888">
+        <img class="insta-icon" src="<?php echo esc_url($insta_link['url']); ?>" alt="<?php echo esc_attr($insta_link['alt']); ?>" />
+    </a>
     <?php endif; ?>
 
     </div>

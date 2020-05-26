@@ -1,6 +1,5 @@
 
 footer {
-    background: lightgray; 
     width: 100%; 
 }
 
@@ -32,4 +31,9 @@ footer .footer-bar li:first-child a {
 
 footer .footer-bar li:last-child a {
     padding-right: 0;
+}
+
+.footer-image {
+    width: 100%; 
+    min-height: 20rem;
 }
