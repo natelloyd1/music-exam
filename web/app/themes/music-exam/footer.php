@@ -1,14 +1,7 @@
-<?php 
-    
-    $footer_background = get_field('footer_img'); 
-
-    if( !empty( $footer_background ) ): ?>
-
 <footer>
-    <div class="container" class="footer-img" style="background-image: url("<?php echo esc_url($footer_background['url']) ?>");>
-        <?php endif; ?>
-
+    <div class="container">
             <?php 
+
                 wp_nav_menu(
 
                     array(
@@ -17,10 +10,11 @@
                     )
                 )
             ?>
+            
+            <?php wp_footer(); ?>
     </div>
 </footer>
 
-    <?php wp_footer(); ?>
+    </body>
 
-</body>
 </html>
