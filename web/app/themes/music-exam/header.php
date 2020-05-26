@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="./js/flickity.pkgd.js"></script>
     <title>Online Music Exams</title>
 
     <?php wp_head();?>
@@ -49,7 +51,8 @@
         ?>
 
     <a href="<?php echo $header_link['url']?>" class="get-started">
-    <?php echo $header_link['title'] ?></a>
+        <?php echo $header_link['title'] ?>
+    </a>
 
     <?php
     if( !empty( $facebook_link ) ): ?>

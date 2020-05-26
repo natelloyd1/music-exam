@@ -1,4 +1,43 @@
-.header-text {
+.first-header {
     font-family: 'Avenir';
-    font-size: 30px;
+    font-size: 45px;
+    justify-content: center;
 }
+
+.second-header {
+    font-family: 'Avenir';
+    font-size: 60px;
+    justify-content: center;
+}
+
+.page-wrap {
+    text-align: center;
+}
+
+.gold-o {
+    font-family: 'Avenir';
+    font-size: 50px;
+    justify-content: center;
+    color: #E8C057; 
+}
+
+.flickity-viewport {
+    padding-top: 5rem;
+}
+
+.flickity-page-dots {
+    padding-top: 5rem;
+}
+
+.carousel-cell {
+    width: 100%; /*  full width */
+     height: 300px;
+     /* center images in cells with flexbox */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .carousel.is-fullscreen .carousel-cell {
+     height: 100%;
+   }
