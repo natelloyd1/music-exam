@@ -1,0 +1,35 @@
+
+footer {
+    background: lightgray; 
+    width: 100%; 
+}
+
+
+footer { 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    min-height: 200px;
+}
+
+footer .footer-bar {
+    list-style-type:none;
+    margin: 0;
+    padding: 0; 
+    display: flex; 
+}
+
+footer .footer-bar li a {
+    padding: .25rem 1rem;
+    color: black; 
+    text-decoration: none; 
+}
+
+footer .footer-bar li:first-child a {
+    padding-left: 0;
+}
+
+footer .footer-bar li:last-child a {
+    padding-right: 0;
+}

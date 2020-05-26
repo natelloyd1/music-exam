@@ -1,0 +1,13 @@
+@font-face { 
+    font-family: "Avenir";
+    font-weight: normal;
+    src: url("./fonts/Avenir\ Next.ttc"); 
+    format: ("opentype"); 
+}
+
+@font-face { 
+    font-family: "AvenirLight";
+    font-weight: normal;
+    src: url("./fonts/Avenir.ttc"); 
+    format: ("opentype"); 
+}
