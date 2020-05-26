@@ -38,9 +38,15 @@ header .top-bar li:last-child a {
 }
 
 header .container {
+    justify-content: center;
     display: flex; 
     align-items: center;
     height: 100%; 
+}
+
+.site-logo {
+    max-width: 100px;
+    margin-right: 8rem;
 }
 
 .menu-image {
@@ -49,5 +55,41 @@ header .container {
 
 .menu-item-44 {
     max-height: 25px; 
+}
 
+.get-started {
+    background-color: black;
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.6rem; 
+    font-family: "Avenir", sans-serif;
+    cursor: pointer; 
+    border-color: black;
+    border-style: solid;
+    border-radius: 5%;
+    margin-top: 2.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;  
+}
+
+a.get-started {
+    text-decoration: none;
+}
+
+a.get-started:hover {
+    color: white; 
+}
+
+.facebook-icon {
+    padding-top: 40px;
+    max-width: 30px;
+    margin: 1rem;
+}
+
+.insta-icon {
+    padding-top: 40px;
+    max-width: 38px;
+    margin: 1rem;
 }
