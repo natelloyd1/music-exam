@@ -12,9 +12,7 @@ Template Name: Exams
         <div class="row">
 
             <div class="col-lg-6">
-
-                This is where the contact form gethostbyaddr
-            
+                            
             </div>
 
             <div class="col-lg-6">

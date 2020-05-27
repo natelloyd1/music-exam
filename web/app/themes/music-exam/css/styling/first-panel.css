@@ -16,13 +16,15 @@
 
 .gold-o {
     font-family: 'Avenir';
-    font-size: 50px;
+    font-size: 60px;
     justify-content: center;
     color: #E8C057; 
 }
 
 .flickity-viewport {
     padding-top: 5rem;
+    max-height: 30rem;
+    display: flex;
 }
 
 .flickity-page-dots {
@@ -30,7 +32,7 @@
 }
 
 .carousel-cell {
-    width: 100%; /*  full width */
+     width: 100%; /*  full width */
      height: 300px;
      /* center images in cells with flexbox */
      display: flex;
@@ -41,3 +43,7 @@
    .carousel.is-fullscreen .carousel-cell {
      height: 100%;
    }
+
+   /* .creative_united {
+       max-width: 3rem;
+   } */
